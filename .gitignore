@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+#logs
+frontend/logs/*
+
+#local pdf folder
+frontend/pdfsendbalanceconfirmation
+frontend/previewsendbalanceconfirmation
+/debug.log
+
+# local pycaches
+frontend/balance_confirmations/__pycache__/*
+frontend/masters/__pycache__/*
+frontend/usermaster/__pycache__/*
+frontend/balance_confirmations/migrations/__pycache__/*
+frontend/masters/migrations/__pycache__/*
+frontend/usermasters/migrations/__pycache__/*
+
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
